@@ -1,6 +1,7 @@
 # webscrapping para obtener las bases del SESNSP
 library(xml2)
 library(rvest)
+library(tidyverse)
 
 # Página del secretariado
 url <- "https://www.gob.mx/sesnsp/acciones-y-programas/datos-abiertos-de-incidencia-delictiva?state=published"
